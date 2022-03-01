@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="TDS" company="" webLink="http://" view-date="2021-01-18" view-index="0" gantt-divider-location="473" resource-divider-location="300" version="2.8.11" locale="fr">
+    <description/>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="280" order="0"/>
+        <field id="tpd4" name="Date de début" width="98" order="1"/>
+        <field id="tpd5" name="Date de fin" width="91" order="2"/>
+        <option id="color.recent"><![CDATA[#00ffff #000000 #ff6600 #666600 #cc00cc #ffff33 #00cc33 #ff0000 #0066ff #0000ff]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Gestion du projet" color="#8cb6ce" meeting="false" start="2021-01-20" duration="33" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true">
+            <task id="178" name="Prise en main ECLISPE" color="#8cb6ce" meeting="false" start="2021-01-20" duration="15" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+            <task id="12" name="Présenation Projet" color="#8cb6ce" meeting="false" start="2021-01-25" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+            <task id="17" name="Autoformation MVC avec les JSP" color="#8cb6ce" meeting="false" start="2021-01-25" duration="30" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="105" name="Base de donnée (Jaune)" color="#ffff33" shape="1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0" meeting="false" start="2021-02-01" duration="64" complete="0" thirdDate="2021-02-01" thirdDate-constraint="0" expand="true">
+            <task id="107" name="Modélisation" color="#00ffff" meeting="false" start="2021-02-01" duration="14" complete="0" thirdDate="2021-02-01" thirdDate-constraint="0" expand="true"/>
+            <task id="108" name="Création de la base" color="#00ffff" meeting="false" start="2021-02-18" duration="1" complete="0" thirdDate="2021-02-01" thirdDate-constraint="0" priority="2" expand="true"/>
+            <task id="111" name="Modification typage et attributs" color="#00ffff" meeting="false" start="2021-03-19" duration="30" complete="0" thirdDate="2021-02-01" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="8" name="Module Utilisateur (Bleu)" color="#0066ff" shape="0,0,0,0,1,1,1,1,0,0,0,0,1,1,1,1" meeting="false" start="2021-02-01" duration="31" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true">
+            <task id="52" name="Connexion et inscription" color="#ff6600" meeting="false" start="2021-02-01" duration="11" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+            <task id="57" name="Lister les utilisateurs de la BDD" color="#000000" meeting="false" start="2021-02-15" duration="6" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+            <task id="55" name="Affichage des vendeurs (avec pages associés)" color="#ff6600" meeting="false" start="2021-02-22" duration="11" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+            <task id="59" name="Modification informations personnel" color="#00ffff" meeting="false" start="2021-03-08" duration="6" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="119" name="Optimisation et réglages (Violet)" color="#cc00cc" meeting="false" start="2021-02-15" duration="57" complete="0" thirdDate="2021-02-01" thirdDate-constraint="0" expand="true">
+            <task id="123" name="Serveur Tomcat" color="#8cb6ce" meeting="false" start="2021-02-15" duration="55" complete="0" thirdDate="2021-02-01" thirdDate-constraint="0" expand="true"/>
+            <task id="122" name="Bootstrap pour la présentation" color="#8cb6ce" meeting="false" start="2021-02-15" duration="50" complete="0" thirdDate="2021-02-01" thirdDate-constraint="0" expand="true"/>
+            <task id="130" name="Commentaire dans le code" color="#8cb6ce" meeting="false" start="2021-02-22" duration="52" complete="0" thirdDate="2021-02-01" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="9" name="Module Négociation (Vert)" color="#00cc33" shape="0,1,0,1,0,0,1,0,0,1,0,1,1,0,0,0" meeting="false" start="2021-02-22" duration="55" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" priority="4" expand="true">
+            <task id="93" name="Autoformation algorithme negociation" color="#8cb6ce" meeting="false" start="2021-02-22" duration="55" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" priority="4" expand="true"/>
+            <task id="97" name="Création algorithme negociation" color="#000000" meeting="false" start="2021-02-22" duration="30" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" priority="4" expand="true"/>
+            <task id="90" name="Lister les transactions effectuées" color="#00ffff" meeting="false" start="2021-02-22" duration="7" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true"/>
+            <task id="160" name="Possibilité d'achat après négociation" color="#8cb6ce" meeting="false" start="2021-03-29" duration="30" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true"/>
+            <task id="102" name="Negociation avec diférents arguments" color="#ff6600" meeting="false" start="2021-04-13" duration="16" complete="0" thirdDate="2021-02-01" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="7" name="Module Voiture (Rouge)" color="#ff0000" shape="1,1,1,0,1,1,0,0,1,0,0,0,0,0,0,0" meeting="false" start="2021-03-09" duration="28" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true">
+            <task id="39" name="Lister les annonces de voiture" color="#ff6600" meeting="false" start="2021-03-09" duration="6" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+            <task id="166" name="Affichage détails de la voiture" color="#00ffff" meeting="false" start="2021-03-12" duration="7" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true"/>
+            <task id="42" name="Lister les voitures acheter" color="#00ffff" meeting="false" start="2021-03-22" duration="12" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+            <task id="44" name="Lister ses annonces déposer" color="#ff6600" meeting="false" start="2021-03-24" duration="5" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+            <task id="47" name="Ajout de photo et description" color="#000000" meeting="false" start="2021-03-29" duration="1" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+            <task id="100" name="Formulaire de mise en vente" color="#000000" meeting="false" start="2021-04-05" duration="9" complete="0" thirdDate="2020-01-30" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
